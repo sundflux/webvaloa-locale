@@ -1,0 +1,21 @@
+{
+    "name": "sundflux/webvaloa-locale",
+    "description": "Webvaloa locale, part of Webaloa platform",
+    "keywords": ["webvaloa"],
+    "homepage": "http://github.com/sundflux/webvaloa-locale",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tarmo Alexander Sundstrom",
+            "email": "ta@sundstrom.io",
+            "homepage": "http://www.webvaloa.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.19"
+    },
+    "autoload": {
+        "psr-4": {"Webvaloa\\": "src/Webvaloa"}
+    }
+}
