@@ -40,10 +40,6 @@ use Libvaloa\Debug\Debug;
  */
 class Translate
 {
-    /**
-     * @var
-     */
-    public $translated;
 
     /**
      * @var
@@ -56,6 +52,11 @@ class Translate
     public static $properties = array(
         'backend' => 'Gettext',
     );
+
+    /**
+     * @var
+     */
+    private $backend;
 
     /**
      * Translate constructor.
